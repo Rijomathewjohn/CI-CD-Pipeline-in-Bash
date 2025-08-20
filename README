@@ -1,0 +1,22 @@
+|------------------------------------------------------------------|
+ci-cd-pipeline-bash/ |
+│── cicd_pipeline.sh # main script |
+│── Dockerfile # sample app containerization |
+│── app/ # simple app (Python/Java/Node) |
+│ └── main.py # example app code |
+│── k8s/ |
+│ └── deployment.yaml # Kubernetes deployment manifest |
+│── README.md # project documentation |
+|------------------------------------------------------------------|
+
+---
+
+Tech Stack |
+-Bash |
+-Docker |
+-Kubernetes (Minikube or kubeadm) |
+********\*\*********\_\_\_\_********\*\*********|
+
+After saving the script
+make it executable -> chmod +x cicd_pipeline.sh
+To run the executable -> ./cicd_pipeline.sh
